@@ -35,8 +35,8 @@ public class Developer {
      */
     
     public static Team getTeam() {
-        // TODO: Change this to your team name
         Team team = new Team("s25-12");
+        team.addMember("Simon");
         team.addMember("Arthur");
         team.addMember("Michael");
         team.addMember("Shawn");
